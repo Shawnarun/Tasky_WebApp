@@ -19,7 +19,7 @@
     />
     <title>Tasky</title>
   </head>
-  <body style="background-color: #ebf3ff">
+  <body style="background-color: #ebf3ff" onload="loadExistingCards()">
     <!-- Modal -->
     <div
       class="modal fade"
@@ -63,6 +63,7 @@
               <input
                 type="text"
                 class="form-control"
+                2
                 id="taskType"
                 placeholder="Type of task"
               />
@@ -103,7 +104,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
         <div class="container-fluid">
-          <a class="fs-4 fw-bold" href="#">Tasky</a>
+          <a class="fs-4 fw-bold" href="index.html">Tasky</a>
           <button
             class="navbar-toggler"
             type="button"
